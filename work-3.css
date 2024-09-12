@@ -1,0 +1,15 @@
+div, section, nav {
+  border:10px dotted cyan;
+  margin:50px;
+  padding:20px;
+}
+
+a {
+  background-color: burlywood;
+}
+
+section article {
+  width:200px;
+  height:200px;
+  background-color:blue;
+}
