@@ -1,0 +1,24 @@
+/* 1. 각 div, section, nav 부모 만들어준다.
+2. text 얼라인 가운데로 한다!
+3. css 좀 준다~ 
+
+1-1. 큰거 안에 div,section,nav 넣는다 */
+
+div {
+  /* color:red; */
+  font-size: 50px;
+  text-align: right;
+  color:aqua
+
+}
+
+nav {
+  font-size: 100px;
+  text-align: center;
+}
+
+section {
+  font-size: 150px;
+  text-align: left;
+  /* 왼쪽은 해도 그만 안해도 그만이지만!  */
+}
