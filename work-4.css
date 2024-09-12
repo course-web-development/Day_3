@@ -1,0 +1,18 @@
+/* inline 요소에 text-align 속성을 주면 의미 없는 이유 */
+
+div {
+  border:20px solid red;
+  padding:20px;
+  text-align: center;
+  /* textalign center마 먹히지 않는 이유? */ 
+  /* 너비가 없는데 뭐 어케 정렬하니 section에 너비를 줘보자! */
+}
+
+section {
+  text-align:center; /* `안녕` 이라는 텍스트가 화면 정 가운데로 가려면, 이 text-align 속성이 녀석이 여기있는게 맞을까요? */
+  width:100px;
+  display:inline-block;
+  border:20px solid blue;
+  padding:20px;
+  width:100px;
+}
